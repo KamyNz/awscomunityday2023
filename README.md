@@ -26,7 +26,7 @@ Este repositori tendra diferentes escenarios para la instalacion y configuracion
 
 ## Resumen
 
-In este Workdshop/Demo, se discutira: *Implementacion de MLFlow en AWS con EC2 y S3*.
+En este Workdshop/Demo, se discutira: *Implementacion de MLFlow en AWS con EC2 y S3*.
 
 | **Metas**              | *Ver seccion de Metas arriba*                                    |
 | ----------------------------- | --------------------------------------------------------------------- |
