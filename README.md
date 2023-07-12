@@ -9,11 +9,11 @@ Este repositori tendra diferentes escenarios para la instalacion y configuracion
 ![Arquitectura](./docs/readme/arquitecture_temp.png)
 
 ## Audiencia
-- Equipos de ciencia de datos: Quieren dar sus primeros pasos en AWS y mejorar procesos de ML
-- Cientifico de datos
-- Ingenieros de datos
-- Ingenieros ML
-- Cualquier otro rol que requiera experiencia práctica para administrar modelos de aprendizaje automático
+- Equipos de ciencia de datos que quieren dar sus primeros pasos en AWS y mejorar procesos de ML
+- Individuos con rol de Cientifico de datos (Data Scientist)
+- Individuos con rol de Ingenieros de datos (Data Engineer)
+- Individuos con rol de Ingenieros ML (ML Engineer)
+- Cualquier otro rol que requiera experiencia práctica para realizar *tracking* de parametros y artefactos relacionados con la administracion de modelos de aprendizaje automático
 
 ## Metas
 - Introduccion a servicios de AWS que pueden integrarse con MLFlow
