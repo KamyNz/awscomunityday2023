@@ -4,7 +4,7 @@
 
 Este repositorio tiene la informacion necesaria para seguir el demo de la presentacion de [Usando MLflow con EC2 a bajo costo](Link)
 
-Este repositori tendra diferentes escenarios para la instalacion y configuracion de servicios de AWS de acuerdo a la siguiente arquitectura:
+Este repositorio tendra diferentes escenarios para la instalacion y configuracion de servicios de AWS de acuerdo a la siguiente arquitectura:
 
 ![Arquitectura](./docs/readme/arquitecture_temp.png)
 
