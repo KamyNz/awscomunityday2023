@@ -53,7 +53,8 @@ En este Workdshop/Demo, se discutira: *Implementacion de MLFlow en AWS con EC2 y
 ## Estructura del repositorio (FALTA)
 > Note: This is the repository file structure from the repository root.
 - `README.md` > Core README for the repository
-- `notebooks` > Jupyter notebook containing all the code related to data exploration, cleansing, feature engineering and model creation
+- `notebooks_demo` > Jupyter notebook containing all the code related to data exploration, cleansing, feature engineering and model creation
+- `data` > FALTA
 - `docs` > FALTA
 
 ## Workshop Scenario (FALTA)
