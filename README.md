@@ -2,7 +2,7 @@
 
 ## Introduccion
 
-Este repositorio tiene la informacion necesaria para seguir el demo de la presentacion de [Usando MLflow con EC2 a bajo costo](Link)
+Este repositorio tiene la informacion necesaria para seguir el demo de la presentacion de [Usando MLflow con EC2 a bajo costo](Link) en el ambiente del [AWS Community Day Colombia](https://awscommunitydaycolombia.splashthat.com/)
 
 Este repositorio tendra diferentes escenarios para la instalacion y configuracion de servicios de AWS de acuerdo a la siguiente arquitectura:
 
