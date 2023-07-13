@@ -36,11 +36,11 @@ En este Workdshop/Demo, se discutira: *Implementacion de MLFlow en AWS con EC2 y
 | **Temas**                  | *EC2, uso de systemctl en EC2, S3, MLFLow*                                                                |                       |
 | **Slides** | [Powerpoint](slides.pptx)
 
-## Otros Prerequisitos relevantes
+## Otros Prerequisitos relevantes (FALTA)
 
 *any installations that will be helpful, any hardware or software needed*
 
-## Estructura de la Guia del Demo
+## Estructura de la Guia del Demo (FALTA)
 - [Pre-Workshop Checklist](documents/part_tips.md)
 - [Parte 1: Creacion y configuracion de VPC](https://docs.google.com/document/d/1Z1-JeTC9gg58TH4lwZOdo67CkA6W0z8fDMJapOrs8Tg/edit?usp=sharing)
 - [Parte 2.0: Creacion de bucket en S3 y generacion de rol asociado a EC2](https://docs.google.com/document/d/1Z1-JeTC9gg58TH4lwZOdo67CkA6W0z8fDMJapOrs8Tg/edit?usp=sharing)
@@ -50,29 +50,13 @@ En este Workdshop/Demo, se discutira: *Implementacion de MLFlow en AWS con EC2 y
 - [Parte 4: Creacion y configuracion del balanceador de carga](https://docs.google.com/document/d/1Z1-JeTC9gg58TH4lwZOdo67CkA6W0z8fDMJapOrs8Tg/edit?usp=sharing)
 - XX
 
-## Estructura del repositorio
+## Estructura del repositorio (FALTA)
 > Note: This is the repository file structure from the repository root.
 - `README.md` > Core README for the repository
-- `.github`
-	- `actions` > YAML files for Github Actions relating to AML job creation, and endpoint deployment
-	- `workflows` > YAML files for Github Actions relating to unit tests and CI/CD workflows
-- `src`
-	- `workshop`
-		- `README.md` > README file highlighting the workshop goals, steps and key audience
-		- `conda-local.yml` > Third-party python dependencies for managing the conda virtual environment
-		- `core`
-			- ``data_engineering`` > Python and YAML files to support feature engineering
-			- ``evaluating`` > Python and YAML files to support model evaluation based on specific model metrics
-			- ``pipelines`` > YAML files to support creation of ML pipelines
-			- ``scoring`` > Python and YAML files to support model deployment and scoring
-			- ``training`` > Python and YAML files to support model training
-		- ``data`` > Base datasets in parquet, with a Python file to load the data into the default datastore
-		- ``documents`` > Setup scripts, and markdown files to support a hands-on workshop
-		- ``infra`` > Setup scripts to support initial creation of the Azure Machine Learning infrastructure and resources
-		- ``notebooks`` > Jupyter notebook containing all the code related to data exploration, cleansing, feature engineering and model
-		  creation
+- `notebooks` > Jupyter notebook containing all the code related to data exploration, cleansing, feature engineering and model creation
+- `docs` > FALTA
 
-## Workshop Scenario
+## Workshop Scenario (FALTA)
 > **Note: Read before starting the workshop!**
 
 Your team has been working on a new machine learning (ML) problem (predicting taxi fares in New York). The
@@ -102,15 +86,15 @@ To re-engineer this into a functional MLOps process, the following steps will be
    production (hot swap).
 7. Now, head to [Workshop Environment Setup: Part 0](https://github.com/microsoft/MLOpsTemplate/blob/main/src/workshop/documents/part_0.md#part-0-workshop-environment-setup)
 
-## Video
+## Video (FALTA)
 
 Embed your Train the Trainer video here. Instructions on how to create a great video experience is [available on this page](../video-guidance.md).
 
-## Pre-Learning
+## Pre-Learning (FALTA)
 
 *add a link to Microsoft Learn for students to pre-learn the topic, if possible*
 
-## Contributing
+## Contributing (FALTA)
 This project welcomes contributions and suggestions.  Most contributions require you to agree to a
 Contributor License Agreement (CLA) declaring that you have the right to, and actually do, grant us
 the rights to use your contribution. For details, visit https://cla.opensource.microsoft.com.
