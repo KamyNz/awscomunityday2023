@@ -6,7 +6,7 @@ Este repositorio tiene la informacion necesaria para seguir el demo de la presen
 
 Este repositorio tendra diferentes escenarios para la instalacion y configuracion de servicios de AWS de acuerdo a la siguiente arquitectura:
 
-![Arquitectura](./docs/readme/arquitecture_temp.png)
+![Arquitectura](./docs/readme/arquitect_temp2.png)
 
 ## Audiencia
 - Equipos de ciencia de datos que quieren dar sus primeros pasos en AWS y mejorar procesos de ML
