@@ -102,9 +102,18 @@ To re-engineer this into a functional MLOps process, the following steps will be
 
 Embed your Train the Trainer video here. Instructions on how to create a great video experience is [available on this page](../video-guidance.md).
 
-## Pre-Learning (FALTA)
+- [Introduccion](link)
+- [Parte 1: Adecuaciòn de  VPC](link)
+- [Parte 2.0: Configuraciòn rol, instancia EC2 y bucket  en S3](link)
+- [Parte 2.1: Creaciòn y configuraciòn de instancia de EC2 para MLFlow](link)
+- [Parte 2.2: Configuraciòn de IP elastica para la instancia de EC2 en red publica. Luego, se puede generar AMI para pasar a red privada](link)
+- [Parte 3: Configuraciòn del balanceador de carga para establecer dominio del servidor MLflow](link)
+- [Parte 4: Introducciòn a MLFlow y uso desde Jupyter Notebooks](link)
+- [Tips](link)
 
-*add a link to Microsoft Learn for students to pre-learn the topic, if possible*
+## Pre-Learning
+
+- [Introduccion a Git (En Ingles)](https://www.youtube.com/watch?v=uR6G2v_WsRA&ab_channel=DavidMahler)
 
 ## Contributing (FALTA)
 This project welcomes contributions and suggestions.  Most contributions require you to agree to a
