@@ -1,31 +1,21 @@
-# Pre-Workshop Checklist
+# Lista de chequeo Pre-Workshop 
 > Note: Review the following criteria to ensure you can complete the workshop. These are critical pieces of access to get right for a successful workshop experience.
 
-## Azure 
-1. Do you have an Azure account?
+## AWS
+1. Tienes una cuenta de AWS?
 
-2. Do you have a `Contributor` role for your Azure Subscription?
-    - If you don't, do you have a `Contributor` role for the Azure Resource Group?
-         > Note: If you don't, you can't run the workshop.
+2. Tienes un usuario generado a partir del usuario de root de tu cuenta de AWS?
+    - Si no, se sugiere como buena practica que se haga esta accion
 
-3. Do you have a Service Principal?
-    - If you don't, do you know the Service Principal and it's information (client id, secret)?
-    - If you don't, can you ask your Cloud team to create the Service Principal for limited scope of a resource group?
-         > Note: If you don't, you can't run the workshop.
+3. Para la [Parte 3](https://docs.google.com/document/d/1Z1-JeTC9gg58TH4lwZOdo67CkA6W0z8fDMJapOrs8Tg/edit?usp=sharing) de la guia demo, se debe pregunta
+    - Tengo un **Registro de un Certificado de SSL con AWS Certificate Manager**?
+        - Si no, se sugiere usar el siguiente [enlace](https://www.youtube.com/watch?v=_lSf4-Ff1Qo&ab_channel=AOSNote)
+    - Tengo un **Dominio registrado con Route 53** ?
+        - Si no, se sugiere usar el siguiente [enlace](https://aws.amazon.com/getting-started/hands-on/get-a-domain/)   
 
-4. Do you know who can help you to handle issues?
-
-5. Do you know a person from your Cloud infra/security team who can help you:
-    - Create Azure resources
-    - Grant permission
-
-6. Did you register 'Microsoft.MachineLearningServices' for your Azure subscription?
-> Note: If you're not sure, go to the Azure Portal > Subscriptions > 'YourSubscription' > Resource providers' > Search 'Microsoft.MachineLearningServices'
-
-![ml_services](./images/arm100.png)
 
 ## Github
-1. Do you have a Github account?
-> Note: If not, create a new account and follow the instructions in Part 0 of the workshop.
+1. Tienes una cuenta de Github?
+> Nota: Si no, create una cuenta nueva y seguir instrucciones de la Introduccion de la [Guia Demo](https://docs.google.com/document/d/1Z1-JeTC9gg58TH4lwZOdo67CkA6W0z8fDMJapOrs8Tg/edit?usp=sharing)
 
-# [Go to Part 0](./part_0.md)
+# [Go to Introduccion](../../README.md)
