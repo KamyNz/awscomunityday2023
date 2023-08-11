@@ -6,7 +6,11 @@ Este repositorio tiene la informacion necesaria para seguir el demo de la presen
 
 Este repositorio tendra diferentes partes para la instalaciòn y configuraciòn de servicios de AWS de acuerdo a la siguiente arquitectura:
 
-![Arquitectura](./docs/readme/arquitect_temp2.png)
+![Arquitectura](./docs/readme/arquitect_temp2.png
+
+## Enlace relevantes
+
+[Guia del Demo con el paso a paso para implementacion](https://docs.google.com/document/d/1Z1-JeTC9gg58TH4lwZOdo67CkA6W0z8fDMJapOrs8Tg/edit?usp=sharing)
 
 ## Audiencia
 - Equipos de ciencia de datos que quieren dar sus primeros pasos en AWS y mejorar procesos de ML
@@ -19,10 +23,6 @@ Este repositorio tendra diferentes partes para la instalaciòn y configuraciòn 
 - Introduccion a servicios de AWS que pueden integrarse con MLFlow
 - Introduccion a MLFLow
 - Entendimiento de caracteristicas relevantes de MLFlow que se veran reflejadas en la maquina desplegada usando AWS
-
-## Enlace relevantes
-
-[Guia del Demo con el paso a paso para implementacion](https://docs.google.com/document/d/1Z1-JeTC9gg58TH4lwZOdo67CkA6W0z8fDMJapOrs8Tg/edit?usp=sharing)
 
 ## Resumen
 
