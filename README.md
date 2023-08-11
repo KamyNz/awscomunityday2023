@@ -77,8 +77,6 @@ En este Workdshop/Demo, se discutira: *Usando MLflow con EC2 a bajo costo*.
 
 ## Video
 
-Embed your Train the Trainer video here. Instructions on how to create a great video experience is [available on this page](../video-guidance.md).
-
 - [Introduccion](link)
 - [Parte 1: Adecuaciòn de  VPC](link)
 - [Parte 2.0: Configuraciòn rol, instancia EC2 y bucket  en S3](link)
