@@ -8,7 +8,7 @@ Este repositorio tendra diferentes partes para la instalaciòn y configuraciòn 
 
 ![Arquitectura](./docs/readme/arquitect_temp2.png)
 
-## Enlace relevantes
+## Enlace relevante
 
 [Guia del Demo con el paso a paso para implementacion](https://docs.google.com/document/d/1Z1-JeTC9gg58TH4lwZOdo67CkA6W0z8fDMJapOrs8Tg/edit?usp=sharing)
 
@@ -26,7 +26,7 @@ Este repositorio tendra diferentes partes para la instalaciòn y configuraciòn 
 
 ## Resumen
 
-En este Workdshop/Demo, se discutira: *Implementacion de MLFlow en AWS con EC2 y S3*.
+En este Workdshop/Demo, se discutira: *Usando MLflow con EC2 a bajo costo*.
 
 | **Metas**              | *Ver seccion de Metas arriba*                                    |
 | ----------------------------- | --------------------------------------------------------------------- |
@@ -51,7 +51,7 @@ En este Workdshop/Demo, se discutira: *Implementacion de MLFlow en AWS con EC2 y
 
 ## Estructura de la Guia del Demo 
 - [Pre-Workshop Checklist](documents/part_tips.md)
-- [Introduccion](https://docs.google.com/document/d/1Z1-JeTC9gg58TH4lwZOdo67CkA6W0z8fDMJapOrs8Tg/edit?usp=sharing)]
+- [Introduccion](https://docs.google.com/document/d/1Z1-JeTC9gg58TH4lwZOdo67CkA6W0z8fDMJapOrs8Tg/edit?usp=sharing)
 - [Parte 1: Adecuaciòn de  VPC](https://docs.google.com/document/d/1Z1-JeTC9gg58TH4lwZOdo67CkA6W0z8fDMJapOrs8Tg/edit?usp=sharing)
 - [Parte 2.0: Configuraciòn rol, instancia EC2 y bucket  en S3](https://docs.google.com/document/d/1Z1-JeTC9gg58TH4lwZOdo67CkA6W0z8fDMJapOrs8Tg/edit?usp=sharing)
 - [Parte 2.1: Creaciòn y configuraciòn de instancia de EC2 para MLFlow](https://docs.google.com/document/d/1Z1-JeTC9gg58TH4lwZOdo67CkA6W0z8fDMJapOrs8Tg/edit?usp=sharing)
@@ -61,7 +61,7 @@ En este Workdshop/Demo, se discutira: *Implementacion de MLFlow en AWS con EC2 y
 - [Tips](https://docs.google.com/document/d/1Z1-JeTC9gg58TH4lwZOdo67CkA6W0z8fDMJapOrs8Tg/edit?usp=sharing)
 
 ## Estructura del repositorio
-> Note: This is the repository file structure from the repository root.
+> Nota: Esta es la estructura del repositorio desde la raiz
 - `README.md` > README de
 - `aws_configuration` > Carpeta donde se encuentran las politicas de permisos de ec2 en formato json
 - `notebooks_demo` > Jupyter Notebooks en donde se encuentran los casos de uso del servidor de MLflow deslegado en AWS
