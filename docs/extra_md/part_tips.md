@@ -1,5 +1,5 @@
 # Lista de chequeo Pre-Workshop 
-> Note: Review the following criteria to ensure you can complete the workshop. These are critical pieces of access to get right for a successful workshop experience.
+> Nota: Revisa los siguientes criterios para asegurarte de que puedas completar la demo. Estas son piezas críticas de acceso que debes manejar correctamente para tener una experiencia exitosa de la demo.
 
 ## AWS
 1. Tienes una cuenta de AWS?
