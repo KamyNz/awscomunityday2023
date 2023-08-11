@@ -71,7 +71,7 @@ En este Workdshop/Demo, se discutira: *Usando MLflow con EC2 a bajo costo*.
 ## Escenario de Demo
 > **Nota: Leer lo siguiente antes de empezar!**
 
-Un equipo de analitica quiere empezar a implementar una cultura de MLOps para ir generando una biblioteca de todos los experimentos que han ido generando en su equipo de analitica. Por esto, con su lider tecnico van a implementar un servidor de tracking de [MLflow](https://mlflow.org/docs/latest/what-is-mlflow.html) en infraestructura de AWS dado que las directivas de su organizacion decidieron usar esta nube. 
+Un equipo de analitica quiere empezar a implementar una cultura de MLOps. Por esto, con su lider tecnico van a implementar un servidor de tracking de [MLflow](https://mlflow.org/docs/latest/what-is-mlflow.html) en infraestructura de AWS dado que las directivas de su organizacion decidieron usar esta nube. 
 
 Igualmente, el lider tecnico del equipo de analitica quiere facilitar la compilacion de la biblioteca de experimentos que miembros del equipo han ido generando en cuadernos de Jupyter en sus cómputo personal. 
 
