@@ -6,7 +6,7 @@ Este repositorio tiene la informacion necesaria para seguir el demo de la presen
 
 Este repositorio tendra diferentes partes para la instalaciòn y configuraciòn de servicios de AWS de acuerdo a la siguiente arquitectura:
 
-![Arquitectura](./docs/readme/arquitect_temp2.png
+![Arquitectura](./docs/readme/arquitect_temp2.png)
 
 ## Enlace relevantes
 
