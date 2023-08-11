@@ -20,9 +20,9 @@ Este repositorio tendra diferentes partes para la instalaciòn y configuraciòn 
 - Cualquier otro rol que requiera experiencia práctica para realizar *tracking* de parametros y artefactos relacionados con la administracion de modelos de aprendizaje automático
 
 ## Metas
-- Introduccion a servicios de AWS que pueden integrarse con MLflow
-- Introduccion a MLFLow
-- Entendimiento de caracteristicas relevantes de MLflow que se veran reflejadas en el servidor de MLflow desplegado dado arquitectura. 
+- Introduccion a la arquitectura de AWS a usar para generar el servidor de *Tracking* de MLflow
+- Introduccion a MLfLow
+- Interaccion con MLflow desde una instancia en red privada que uso balanceador
 
 ## Resumen
 
@@ -68,35 +68,12 @@ En este Workdshop/Demo, se discutira: *Usando MLflow con EC2 a bajo costo*.
 - `data` > Se encuentran archivos para usar en los casos de uso dentro de notebooks_demo
 - `docs` > Se encuentra informacion auxiliar del repositorio
 
-## Workshop Scenario (FALTA)
-> **Note: Read before starting the workshop!**
+## Escenario de Demo
+> **Nota: Leer lo siguiente antes de empezar!**
 
-Your team has been working on a new machine learning (ML) problem (predicting taxi fares in New York). The
-team has been performing exploratory work on the data and has come to a state where the model is solidified.
-Now, it is time to put a structure into the work so that the team can iterate faster toward building a fully
-functional solution. So far, team members have been working mostly with Jupyter notebooks on their
-personal compute.
+Un equipo de analitica quiere empezar a implementar una cultura de MLOps para ir generando una biblioteca de todos los experimentos que han ido generando en su equipo de analitica. Por esto, con su lider tecnico van a implementar un servidor de tracking de [MLflow](https://mlflow.org/docs/latest/what-is-mlflow.html) en infraestructura de AWS dado que las directivas de su organizacion decidieron usar esta nube. 
 
-To re-engineer this into a functional MLOps process, the following steps will be taken:
-1. The code will be modularized (refactored into separate python modules) and parameterized (configured so it
-   can be re-run with different values). This will lay the foundation for good software practices and allow
-   multiple data scientists/engineers to work collaboratively on the code. (Later, we will reinforce DevOps
-   practices around continuous integration and continuous deployment with specific workflows to support model
-   training and evaluation. MLOps builds off a strong foundation in DevOps and looks to additionally manage
-   the model and data lifecycles to support the best model in production.)
-2. After successfully restructuring the Jupyter notebook and running the modules locally, your team will
-   leverage Microsoft Azure to run the ML experiment at scale. They will take advantage of experiment tracking
-   and model management capabilities in Azure ML to keep track of experiments. The team will then deploy the
-   model as a rest endpoint for real time inferencing.
-4. They will then setup a centralized version control in Github to keep track of project code and manage different
-   feature development tracks and releases. They will need to understand how to automate and orchestrate
-   common tasks such as environment setup, training, and testing.
-5. After setting up GitHub for MLOps, your team will start automating the model training and evaluation
-   process with a Continuous Integration (CI) pipeline.
-6. After a successful run of the CI pipeline, your team will complete the process with a Continuous
-   Delivery (CD) pipeline that will handle the deployment of the model without introducing any downtime in
-   production (hot swap).
-7. Now, head to [Workshop Environment Setup: Part 0](https://github.com/microsoft/MLOpsTemplate/blob/main/src/workshop/documents/part_0.md#part-0-workshop-environment-setup)
+Igualmente, el lider tecnico del equipo de analitica quiere facilitar la compilacion de la biblioteca de experimentos que miembros del equipo han ido generando en cuadernos de Jupyter en sus cómputo personal. 
 
 ## Video (FALTA)
 
