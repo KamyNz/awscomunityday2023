@@ -36,9 +36,18 @@ En este Workdshop/Demo, se discutira: *Implementacion de MLFlow en AWS con EC2 y
 | **Temas**                  | *EC2, uso de systemctl en EC2, S3, MLFLow*                                                                |                       |
 | **Slides** | [Powerpoint](slides.pptx)
 
-## Otros Prerequisitos relevantes (FALTA)
+## Prerequisitos relevantes
 
-*any installations that will be helpful, any hardware or software needed*
+- Se debe tener cuenta de AWS
+- Se recomienda que a partir de la cuenta root, se debe generar un rol que usaremos para disponibilizar los servicios de AWS de la demo como:
+   - VPCs
+   - Grupo de seguridad (Security Group)
+   - Instancias de EC2
+   - Buckets de S3
+   - Grupo destinatario (Target group)
+   - Balanceador de Carga (Load balancer)
+
+> Nota: En lenguaje de la consola sobre la cual se hicieron las partes del demo esta en Ingles por 2 razones: i) en el futuro sera màs facil generalizar el material para otros usos y ii) se practica ingles.  
 
 ## Estructura de la Guia del Demo (FALTA)
 - [Pre-Workshop Checklist](documents/part_tips.md)
