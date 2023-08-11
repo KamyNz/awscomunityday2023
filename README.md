@@ -2,7 +2,7 @@
 
 ## Introduccion
 
-Este repositorio tiene la informacion necesaria para seguir el demo de la presentacion de [Usando MLflow con EC2 a bajo costo](Link) en el ambiente del [AWS Community Day Colombia](https://awscommunitydaycolombia.splashthat.com/)
+Este repositorio tiene la informacion necesaria para seguir el demo de la presentacion de [Usando MLflow con EC2 a bajo costo] en el ambiente del [AWS Community Day Colombia](https://awscommunitydaycolombia.splashthat.com/)
 
 Este repositorio tendra diferentes partes para la instalaciòn y configuraciòn de servicios de AWS de acuerdo a la siguiente arquitectura:
 
@@ -20,9 +20,9 @@ Este repositorio tendra diferentes partes para la instalaciòn y configuraciòn 
 - Cualquier otro rol que requiera experiencia práctica para realizar *tracking* de parametros y artefactos relacionados con la administracion de modelos de aprendizaje automático
 
 ## Metas
-- Introduccion a servicios de AWS que pueden integrarse con MLFlow
+- Introduccion a servicios de AWS que pueden integrarse con MLflow
 - Introduccion a MLFLow
-- Entendimiento de caracteristicas relevantes de MLFlow que se veran reflejadas en la maquina desplegada usando AWS
+- Entendimiento de caracteristicas relevantes de MLflow que se veran reflejadas en el servidor de MLflow desplegado dado arquitectura. 
 
 ## Resumen
 
