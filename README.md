@@ -42,29 +42,31 @@ En este Workdshop/Demo, se discutira: *Implementacion de MLFlow en AWS con EC2 y
 - Se recomienda que a partir de la cuenta root, se debe generar un rol que usaremos para disponibilizar los servicios de AWS de la demo como:
    - VPCs
    - Grupo de seguridad (Security Group)
-   - Instancias de EC2
+   - Instancia de EC2
    - Buckets de S3
    - Grupo destinatario (Target group)
    - Balanceador de Carga (Load balancer)
 
 > Nota: En lenguaje de la consola sobre la cual se hicieron las partes del demo esta en Ingles por 2 razones: i) en el futuro sera màs facil generalizar el material para otros usos y ii) se practica ingles.  
 
-## Estructura de la Guia del Demo (FALTA)
+## Estructura de la Guia del Demo 
 - [Pre-Workshop Checklist](documents/part_tips.md)
-- [Parte 1: Creacion y configuracion de VPC](https://docs.google.com/document/d/1Z1-JeTC9gg58TH4lwZOdo67CkA6W0z8fDMJapOrs8Tg/edit?usp=sharing)
-- [Parte 2.0: Creacion de bucket en S3 y generacion de rol asociado a EC2](https://docs.google.com/document/d/1Z1-JeTC9gg58TH4lwZOdo67CkA6W0z8fDMJapOrs8Tg/edit?usp=sharing)
-- [Parte 2.1: Creacion y configuracion de instancia de EC2 para MLFlow](https://docs.google.com/document/d/1Z1-JeTC9gg58TH4lwZOdo67CkA6W0z8fDMJapOrs8Tg/edit?usp=sharing)
-- [Parte 2.2: Configuracion de IP elastica para la instancia de EC2. Luego, puede hacer parte 4](https://docs.google.com/document/d/1Z1-JeTC9gg58TH4lwZOdo67CkA6W0z8fDMJapOrs8Tg/edit?usp=sharing)
-- [Parte 3: Quickstart de MLFlow de forma local vs AWS](https://docs.google.com/document/d/1Z1-JeTC9gg58TH4lwZOdo67CkA6W0z8fDMJapOrs8Tg/edit?usp=sharing)
-- [Parte 4: Creacion y configuracion del balanceador de carga](https://docs.google.com/document/d/1Z1-JeTC9gg58TH4lwZOdo67CkA6W0z8fDMJapOrs8Tg/edit?usp=sharing)
-- XX
+- [Introduccion (https://docs.google.com/document/d/1Z1-JeTC9gg58TH4lwZOdo67CkA6W0z8fDMJapOrs8Tg/edit?usp=sharing)]
+- [Parte 1: Adecuaciòn de  VPC](https://docs.google.com/document/d/1Z1-JeTC9gg58TH4lwZOdo67CkA6W0z8fDMJapOrs8Tg/edit?usp=sharing)
+- [Parte 2.0: Configuraciòn rol, instancia EC2 y bucket  en S3](https://docs.google.com/document/d/1Z1-JeTC9gg58TH4lwZOdo67CkA6W0z8fDMJapOrs8Tg/edit?usp=sharing)
+- [Parte 2.1: Creaciòn y configuraciòn de instancia de EC2 para MLFlow](https://docs.google.com/document/d/1Z1-JeTC9gg58TH4lwZOdo67CkA6W0z8fDMJapOrs8Tg/edit?usp=sharing)
+- [Parte 2.2: Configuraciòn de IP elastica para la instancia de EC2 en red publica. Luego, se puede generar AMI para pasar a red privada](https://docs.google.com/document/d/1Z1-JeTC9gg58TH4lwZOdo67CkA6W0z8fDMJapOrs8Tg/edit?usp=sharing)
+- [Parte 3: Configuraciòn del balanceador de carga para establecer dominio del servidor MLflow](https://docs.google.com/document/d/1Z1-JeTC9gg58TH4lwZOdo67CkA6W0z8fDMJapOrs8Tg/edit?usp=sharing)
+- [Parte 4: Introducciòn a MLFlow y uso desde Jupyter Notebooks](https://docs.google.com/document/d/1Z1-JeTC9gg58TH4lwZOdo67CkA6W0z8fDMJapOrs8Tg/edit?usp=sharing)
+- [Tips](https://docs.google.com/document/d/1Z1-JeTC9gg58TH4lwZOdo67CkA6W0z8fDMJapOrs8Tg/edit?usp=sharing)
 
-## Estructura del repositorio (FALTA)
+## Estructura del repositorio
 > Note: This is the repository file structure from the repository root.
-- `README.md` > Core README for the repository
-- `notebooks_demo` > Jupyter notebook containing all the code related to data exploration, cleansing, feature engineering and model creation
-- `data` > FALTA
-- `docs` > FALTA
+- `README.md` > README de
+- `aws_configuration` > Carpeta donde se encuentran las politicas de permisos de ec2 en formato json
+- `notebooks_demo` > Jupyter Notebooks en donde se encuentran los casos de uso del servidor de MLflow deslegado en AWS
+- `data` > Se encuentran archivos para usar en los casos de uso dentro de notebooks_demo
+- `docs` > Se encuentra informacion auxiliar del repositorio
 
 ## Workshop Scenario (FALTA)
 > **Note: Read before starting the workshop!**
