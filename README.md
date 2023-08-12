@@ -90,14 +90,13 @@ En este Workdshop/Demo, se discutira: *Usando MLflow con EC2 a bajo costo*.
 
 - [Introduccion a Git (En Ingles)](https://www.youtube.com/watch?v=uR6G2v_WsRA&ab_channel=DavidMahler)
 
-## Contributing (FALTA)
-This project welcomes contributions and suggestions.  Most contributions require you to agree to a
-Contributor License Agreement (CLA) declaring that you have the right to, and actually do, grant us
-the rights to use your contribution. For details, visit https://cla.opensource.microsoft.com.
+## Agradecimientos 
 
-When you submit a pull request, a CLA bot will automatically determine whether you need to provide
-a CLA and decorate the PR appropriately (e.g., status check, comment). Simply follow the instructions
-provided by the bot. You will only need to do this once across all repos using our CLA.
+- [Jeico Percy](https://www.linkedin.com/in/jeico-percy-ing-redes/): Ofrecerme apoyo y su conocimiento en validar las buenas practicas en AWS para este ejercicio.
+- [Ana Maria Lopez](https://www.linkedin.com/in/amlopez81/): Darme realimentacion del material de esta charla
+- [Diego Marulanda](https://www.linkedin.com/in/diegomarulandabarrientos/): Escuchar mi presentacion y darme realimentacion
+- [Juanita Herrera](https://www.linkedin.com/in/juanita-herrera-9152b2172/): Escuchar mi presentacion y hacer que tenga los mejores resultados
+
 
 This project has adopted the [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/).
 For more information see the [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/) or
