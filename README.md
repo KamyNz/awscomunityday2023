@@ -27,7 +27,7 @@ Este repositorio tendra diferentes partes para la instalaciòn y configuraciòn 
 ## Escenario de Demo
 > **Nota: Leer lo siguiente antes de empezar!**
 
-Un equipo de analitica quiere empezar a implementar una cultura de MLOps. Por esto, con su lider tecnico van a implementar un servidor de tracking de [MLflow](https://mlflow.org/docs/latest/what-is-mlflow.html) en infraestructura de AWS dado que las directivas de su organizacion decidieron usar esta nube. 
+Un equipo de analitica quiere empezar a implementar una cultura de MLOps. Por esto, con su lider tecnico van a implementar un servidor de tracking de [MLflow](https://mlflow.org/docs/latest/what-is-mlflow.html) en infraestructura de [AWS](https://docs.aws.amazon.com/wellarchitected/latest/machine-learning-lens/well-architected-machine-learning.html) dado que las directivas de su organizacion decidieron usar esta nube. 
 
 Igualmente, el lider tecnico del equipo de analitica quiere facilitar la compilacion de la biblioteca de experimentos que miembros del equipo han ido generando en cuadernos de Jupyter en su computadores personales. 
 
