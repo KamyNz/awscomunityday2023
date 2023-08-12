@@ -77,14 +77,14 @@ En este Workdshop/Demo, se discutira: *Usando MLflow con EC2 a bajo costo*.
 
 ## Video
 
-- [Introduccion](link)
+- [Introduccion](https://youtu.be/uuQsK4kUoKQ)
 - Parte 1: Adecuaciòn de  VPC
-- [Parte 2.0: Configuraciòn rol, instancia EC2 y bucket  en S3](link)
-- [Parte 2.1: Creaciòn y configuraciòn de instancia de EC2 para MLFlow](link)
+- [Parte 2.0: Configuraciòn rol, instancia EC2 y bucket  en S3](https://www.youtube.com/playlist?list=PL3wXgEANpNm0fDGriRgHSTrAfY3SV_6sH)
+- [Parte 2.1: Creaciòn y configuraciòn de instancia de EC2 para MLFlow](https://www.youtube.com/playlist?list=PL3wXgEANpNm0fDGriRgHSTrAfY3SV_6sH)
 - Parte 2.2: Configuraciòn de IP elastica para la instancia de EC2 en red publica. Luego, se puede generar AMI para pasar a red privada
 - Parte 3: Configuraciòn del balanceador de carga para establecer dominio del servidor MLflow
-- [Parte 4: Introducciòn a MLFlow y uso desde Jupyter Notebooks](link)
-- [Tips](link)
+- [Parte 4: Introducciòn a MLFlow y uso desde Jupyter Notebooks](https://www.youtube.com/playlist?list=PL3wXgEANpNm0fDGriRgHSTrAfY3SV_6sH)
+- [Tips](https://www.youtube.com/playlist?list=PL3wXgEANpNm0fDGriRgHSTrAfY3SV_6sH)
 
 ## Pre-Learning
 
