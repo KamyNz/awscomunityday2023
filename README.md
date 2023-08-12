@@ -98,8 +98,3 @@ En este Workdshop/Demo, se discutira: *Usando MLflow con EC2 a bajo costo*.
 - [Juanita Herrera](https://www.linkedin.com/in/juanita-herrera-9152b2172/): Escuchar mi presentacion y hacer que tenga los mejores resultados
 
 
-This project has adopted the [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/).
-For more information see the [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/) or
-contact [opencode@microsoft.com](mailto:opencode@microsoft.com) with any additional questions or comments.
-
-
