@@ -69,7 +69,7 @@ En este Workdshop/Demo, se discutira: *Usando MLflow con EC2 a bajo costo*.
 
 ## Estructura del repositorio
 > Nota: Esta es la estructura del repositorio desde la raiz
-- `README.md` > README de
+- `README.md` > README con las indicacioens de uso de este repositorio
 - `aws_configuration` > Carpeta donde se encuentran las politicas de permisos de ec2 en formato json
 - `notebooks_demo` > Jupyter Notebooks en donde se encuentran los casos de uso del servidor de MLflow deslegado en AWS
 - `data` > Se encuentran archivos para usar en los casos de uso dentro de notebooks_demo
