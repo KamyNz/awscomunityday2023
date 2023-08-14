@@ -1,5 +1,8 @@
 # Demo de AWS Community Day (Implementando  MLFLow en tus experimentos de ML a bajo costo desde EC2)
 
+- 💼 [LinkedIn](https://www.linkedin.com/in/kamymartinez/)
+- 🐦 [Twitter](https://twitter.com/kamynz16)
+
 ## Introduccion
 
 Este repositorio tiene la informacion necesaria para seguir el demo de la presentacion de **Usando MLflow con EC2 a bajo costo** en el ambiente del [AWS Community Day Colombia](https://awscommunitydaycolombia.splashthat.com/)
