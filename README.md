@@ -93,6 +93,10 @@ En este Workdshop/Demo, se discutira: *Usando MLflow con EC2 a bajo costo*.
 
 - [Introduccion a Git (En Ingles)](https://www.youtube.com/watch?v=uR6G2v_WsRA&ab_channel=DavidMahler)
 
+## Learnings, and next steps.
+
+- Desarrollar el demo con Terraform para facilitar uso de servicio dado Infraestructura como Codigo (IaC)
+
 ## Agradecimientos 
 
 - [Jeico Percy](https://www.linkedin.com/in/jeico-percy-ing-redes/): Ofrecerme apoyo y su conocimiento en validar las buenas practicas en AWS para este ejercicio.
