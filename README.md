@@ -47,18 +47,15 @@ En este Workdshop/Demo, se discutira: *Usando MLflow a bajo costo en una instanc
 | **Temas**                  | *EC2, uso de systemctl en EC2, S3, MLFLow*                                                                |                       |
 | **Slides** | [Powerpoint](slides.pptx)
 
-## Prerequisitos relevantes
-
-- Se debe tener cuenta de AWS
-- Se recomienda que a partir de la cuenta root, se debe generar un rol que usaremos para disponibilizar los servicios de AWS de la demo como:
+## Relevant Prerequisites
+- An AWS account is required
+- It is recommended to create a role from the root account that will be used to provision the AWS services for the demo, including:
    - VPCs
-   - Grupo de seguridad (Security Group)
-   - Instancia de EC2
-   - Buckets de S3
-   - Grupo destinatario (Target group)
-   - Balanceador de Carga (Load balancer)
-
-> Nota: En lenguaje de la consola sobre la cual se hicieron las partes del demo esta en Ingles por 2 razones: i) en el futuro sera màs facil generalizar el material para otros usos y ii) se practica ingles.  
+   - Security Group
+   - EC2 Instance
+   - S3 Buckets
+   - Target Group
+   - Load Balancer
 
 ## Estructura de la Guia del Demo 
 - [Lista de Chequeo de Pre-Workshop](docs/extra_md/part_tips.md)
@@ -71,13 +68,14 @@ En este Workdshop/Demo, se discutira: *Usando MLflow a bajo costo en una instanc
 - [Parte 4: Introducciòn a MLFlow y uso desde Jupyter Notebooks](https://docs.google.com/document/d/1Z1-JeTC9gg58TH4lwZOdo67CkA6W0z8fDMJapOrs8Tg/edit?usp=sharing)
 - [Tips](https://docs.google.com/document/d/1Z1-JeTC9gg58TH4lwZOdo67CkA6W0z8fDMJapOrs8Tg/edit?usp=sharing)
 
-## Estructura del repositorio
-> Nota: Esta es la estructura del repositorio desde la raiz
-- `README.md` > README con las indicacioens de uso de este repositorio
-- `aws_configuration` > Carpeta donde se encuentran las politicas de permisos de ec2 en formato json
-- `notebooks_demo` > Jupyter Notebooks en donde se encuentran los casos de uso del servidor de MLflow deslegado en AWS
-- `data` > Se encuentran archivos para usar en los casos de uso dentro de notebooks_demo
-- `docs` > Se encuentra informacion auxiliar del repositorio
+## Repository Structure
+> Note: This is the repository structure from the root
+
+- `README.md` > README with instructions for using this repository
+- `aws_configuration` > Folder containing EC2 permission policies in JSON format
+- `notebooks_demo` > Jupyter Notebooks containing use cases for the MLflow Tracking server deployed on AWS
+- `data` > Files for use in the use cases within notebooks_demo
+- `docs` > Supplementary information about the repository
 
 ## Video
 
@@ -90,19 +88,19 @@ En este Workdshop/Demo, se discutira: *Usando MLflow a bajo costo en una instanc
 - [Parte 4: Introducciòn a MLFlow y uso desde Jupyter Notebooks](https://youtu.be/uuQsK4kUoKQ)
 - [Tips](https://www.youtube.com/playlist?list=PL3wXgEANpNm0fDGriRgHSTrAfY3SV_6sH)
 
+## Learnings and Next Steps
+
+- Development of this demo using Terraform to facilitate the use of services through Infrastructure as Code (IaC)
+  
 ## Pre-Learning
 
-- [Introduccion a Git (En Ingles)](https://www.youtube.com/watch?v=uR6G2v_WsRA&ab_channel=DavidMahler)
+- [Introduction to Git](https://www.youtube.com/watch?v=uR6G2v_WsRA&ab_channel=DavidMahler)
 
-## Learnings, and next steps.
+## Acknowledgments
 
-- Desarrollar el demo con Terraform para facilitar uso de servicio dado Infraestructura como Codigo (IaC)
-
-## Agradecimientos 
-
-- [Jeico Percy](https://www.linkedin.com/in/jeico-percy-ing-redes/): Ofrecerme apoyo y su conocimiento en validar las buenas practicas en AWS para este ejercicio.
-- [Ana Maria Lopez](https://www.linkedin.com/in/amlopez81/): Darme realimentacion del material de esta charla
-- [Diego Marulanda](https://www.linkedin.com/in/diegomarulandabarrientos/): Escuchar mi presentacion y darme realimentacion
-- [Juanita Herrera](https://www.linkedin.com/in/juanita-herrera-9152b2172/): Escuchar mi presentacion y hacer que tenga los mejores resultados
+- [Jeico Percy](https://www.linkedin.com/in/jeico-percy-ing-redes/): Offering support and expertise in validating AWS best practices for this exercise.
+- [Ana Maria Lopez](https://www.linkedin.com/in/amlopez81/): Providing feedback on the material for this talk.
+- [Diego Marulanda](https://www.linkedin.com/in/diegomarulandabarrientos/): Attending my presentation and providing feedback.
+- [Juanita Herrera](https://www.linkedin.com/in/juanita-herrera-9152b2172/): Attending my presentation and helping achieve the best results.
 
 
