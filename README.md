@@ -37,15 +37,16 @@ An analytics team wants to start implementing an MLOps culture. Therefore, along
 Similarly, the technical leader of the analytics team aims to streamline the compilation of the library of experiments that team members have been generating in Jupyter notebooks on their personal computers.
 
 ## Summary
-En este Workdshop/Demo, se discutira: *Usando MLflow a bajo costo en una instancia EC2*.
 
-| **Metas**              | *Ver seccion de Metas arriba*                                    |
-| ----------------------------- | --------------------------------------------------------------------- |
-| **Que aprenderas**       | *Uso de servicios de AWS: EC2, S3 para implementar el software de Open Source de MLFlow*                                   |
-| **Que necesitaras**          | *Cuenta de AWS con free tier* |
-| **Duration**                  | *1h*                                                                |
-| **Temas**                  | *EC2, uso de systemctl en EC2, S3, MLFLow*                                                                |                       |
-| **Slides** | [Powerpoint](slides.pptx)
+In this Workshop/Demo, we will discuss: *Using MLflow at low cost on an EC2 instance*.
+
+| **Goals**        | *See Goals section above*   |
+| ----------------- | --------------------------- |
+| **What You'll Learn**     | *Using AWS services: EC2, S3, to implement the MLFlow open-source software*  |
+| **What You'll Need**  | *AWS account with free tier*   |
+| **Duration**  | *1 hour*   |
+| **Topics**  | *EC2, EC2 systemctl usage, S3, MLFlow*   |
+| **Slides** | [Powerpoint](slides.pptx) |
 
 ## Relevant Prerequisites
 - An AWS account is required
@@ -57,15 +58,15 @@ En este Workdshop/Demo, se discutira: *Usando MLflow a bajo costo en una instanc
    - Target Group
    - Load Balancer
 
-## Estructura de la Guia del Demo 
-- [Lista de Chequeo de Pre-Workshop](docs/extra_md/part_tips.md)
-- [Introduccion](https://docs.google.com/document/d/1Z1-JeTC9gg58TH4lwZOdo67CkA6W0z8fDMJapOrs8Tg/edit?usp=sharing)
-- [Parte 1: Adecuaciòn de  VPC](https://docs.google.com/document/d/1Z1-JeTC9gg58TH4lwZOdo67CkA6W0z8fDMJapOrs8Tg/edit?usp=sharing)
-- [Parte 2.0: Configuraciòn rol, instancia EC2 y bucket  en S3](https://docs.google.com/document/d/1Z1-JeTC9gg58TH4lwZOdo67CkA6W0z8fDMJapOrs8Tg/edit?usp=sharing)
-- [Parte 2.1: Configuración de instancia de EC2 para MLflow](https://docs.google.com/document/d/1Z1-JeTC9gg58TH4lwZOdo67CkA6W0z8fDMJapOrs8Tg/edit?usp=sharing)
-- [Parte 2.2: Configuraciòn de IP elastica para la instancia de EC2 en red publica. Luego, se puede generar AMI para pasar a red privada](https://docs.google.com/document/d/1Z1-JeTC9gg58TH4lwZOdo67CkA6W0z8fDMJapOrs8Tg/edit?usp=sharing)
-- [Parte 3: Configuraciòn del balanceador de carga para establecer dominio del servidor MLflow](https://docs.google.com/document/d/1Z1-JeTC9gg58TH4lwZOdo67CkA6W0z8fDMJapOrs8Tg/edit?usp=sharing)
-- [Parte 4: Introducciòn a MLFlow y uso desde Jupyter Notebooks](https://docs.google.com/document/d/1Z1-JeTC9gg58TH4lwZOdo67CkA6W0z8fDMJapOrs8Tg/edit?usp=sharing)
+## Demo Guide Structure
+- [Pre-Workshop Checklist](docs/extra_md/part_tips.md)
+- [Introduction](https://docs.google.com/document/d/1Z1-JeTC9gg58TH4lwZOdo67CkA6W0z8fDMJapOrs8Tg/edit?usp=sharing)
+- [Part 1: VPC Setup](https://docs.google.com/document/d/1Z1-JeTC9gg58TH4lwZOdo67CkA6W0z8fDMJapOrs8Tg/edit?usp=sharing)
+- [Part 2.0: Role Configuration, EC2 Instance, and S3 Bucket Setup](https://docs.google.com/document/d/1Z1-JeTC9gg58TH4lwZOdo67CkA6W0z8fDMJapOrs8Tg/edit?usp=sharing)
+- [Part 2.1: EC2 Instance Configuration for MLflow](https://docs.google.com/document/d/1Z1-JeTC9gg58TH4lwZOdo67CkA6W0z8fDMJapOrs8Tg/edit?usp=sharing)
+- [Part 2.2: Elastic IP Configuration for Public EC2 Instance. Subsequently, Generating AMI for Transition to Private Network](https://docs.google.com/document/d/1Z1-JeTC9gg58TH4lwZOdo67CkA6W0z8fDMJapOrs8Tg/edit?usp=sharing)
+- [Part 3: Load Balancer Configuration to Establish MLflow Server Domain](https://docs.google.com/document/d/1Z1-JeTC9gg58TH4lwZOdo67CkA6W0z8fDMJapOrs8Tg/edit?usp=sharing)
+- [Part 4: Introduction to MLFlow and Usage from Jupyter Notebooks](https://docs.google.com/document/d/1Z1-JeTC9gg58TH4lwZOdo67CkA6W0z8fDMJapOrs8Tg/edit?usp=sharing)
 - [Tips](https://docs.google.com/document/d/1Z1-JeTC9gg58TH4lwZOdo67CkA6W0z8fDMJapOrs8Tg/edit?usp=sharing)
 
 ## Repository Structure
@@ -76,17 +77,6 @@ En este Workdshop/Demo, se discutira: *Usando MLflow a bajo costo en una instanc
 - `notebooks_demo` > Jupyter Notebooks containing use cases for the MLflow Tracking server deployed on AWS
 - `data` > Files for use in the use cases within notebooks_demo
 - `docs` > Supplementary information about the repository
-
-## Video
-
-- [Introduccion](https://www.youtube.com/playlist?list=PL3wXgEANpNm0fDGriRgHSTrAfY3SV_6sH)
-- Parte 1: Adecuaciòn de  VPC
-- [Parte 2.0: Configuraciòn rol, instancia EC2 y bucket  en S3](https://www.youtube.com/playlist?list=PL3wXgEANpNm0fDGriRgHSTrAfY3SV_6sH)
-- [Parte 2.1: Configuración de instancia de EC2 para MLflow](https://www.youtube.com/playlist?list=PL3wXgEANpNm0fDGriRgHSTrAfY3SV_6sH)
-- Parte 2.2: Configuraciòn de IP elastica para la instancia de EC2 en red publica. Luego, se puede generar AMI para pasar a red privada
-- Parte 3: Configuraciòn del balanceador de carga para establecer dominio del servidor MLflow
-- [Parte 4: Introducciòn a MLFlow y uso desde Jupyter Notebooks](https://youtu.be/uuQsK4kUoKQ)
-- [Tips](https://www.youtube.com/playlist?list=PL3wXgEANpNm0fDGriRgHSTrAfY3SV_6sH)
 
 ## Learnings and Next Steps
 
