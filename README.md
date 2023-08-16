@@ -1,44 +1,43 @@
-# Demo de AWS Community Day (Implementando  MLFLow en tus experimentos de ML a bajo costo desde EC2)
+# AWS Community Day Demo (Implementing MLflow in your ML experiments at low cost from EC2)
 
 - 💼 [LinkedIn](https://www.linkedin.com/in/kamymartinez/)
 - 🐦 [Twitter](https://twitter.com/kamynz16)
 
 - Demo in [Spanish](https://github.com/KamyNz/awscomunityday2023/tree/demo_spanish)
 
-## Introduccion
+## Introduction
 
-Este repositorio tiene la informacion necesaria para seguir el demo de la presentacion de **Usando MLflow con EC2 a bajo costo** en el ambiente del [AWS Community Day Colombia](https://awscommunitydaycolombia.splashthat.com/)
+This repository contains the necessary information to follow the demo from the presentation **Using MLflow with Low-Cost EC2** in the context of the [AWS Community Day Colombia](https://awscommunitydaycolombia.splashthat.com/) event.
 
-Este repositorio tendra diferentes partes para la instalaciòn y configuraciòn de servicios de AWS de acuerdo a la siguiente arquitectura:
+The repository is structured into various sections for the installation and configuration of AWS services, following the architecture outlined below:
 
 ![Arquitectura](./docs/readme/Arquitecturav2.png)
 
-## Enlace relevante
+## Key Links (Falta)
 
-[Guia del Demo con el paso a paso para implementacion](https://docs.google.com/document/d/1Z1-JeTC9gg58TH4lwZOdo67CkA6W0z8fDMJapOrs8Tg/edit?usp=sharing)
+[Demo Guide in English]()
 
-## Audiencia
-- Equipos de ciencia de datos que quieren dar sus primeros pasos en AWS y mejorar procesos de ML
-- Individuos con rol de Cientifico de datos (Data Scientist)
-- Individuos con rol de Ingenieros de datos (Data Engineer)
-- Individuos con rol de Ingenieros ML (ML Engineer)
-- Cualquier otro rol que requiera experiencia práctica para realizar *tracking* de parametros y artefactos relacionados con la administracion de modelos de aprendizaje automático
+## Key Audience
+- Data science teams looking to take their first steps on AWS and enhance ML processes
+- Individuals with a Data Scientist role
+- Individuals with a Data Engineer role
+- Individuals with an ML Engineer role
+- Any other role seeking practical experience for tracking parameters and artifacts related to managing machine learning models.
 
-## Metas
-- Introduccion a la arquitectura de AWS a usar para generar el servidor de *Tracking* de MLflow
-- Introduccion a MLfLow
-- Interaccion con MLflow desde una instancia en red privada que uso balanceador
+## Goals
+- Introduction to the AWS architecture used to generate the MLflow Tracking server
+- Introduction to MLflow
+- Interaction with MLflow from an instance in a private network that uses a balancer
 
-## Escenario de Demo
-> **Nota: Leer lo siguiente antes de empezar!**
+## Demo Scenario
+> **Note: Read the following before you begin!**
 
-Un equipo de analitica quiere empezar a implementar una cultura de MLOps. Por esto, con su lider tecnico van a implementar un servidor de tracking de [MLflow](https://mlflow.org/docs/latest/what-is-mlflow.html) en infraestructura de [AWS](https://docs.aws.amazon.com/wellarchitected/latest/machine-learning-lens/well-architected-machine-learning.html) dado que las directivas de su organizacion decidieron usar esta nube. 
+An analytics team wants to start implementing an MLOps culture. Therefore, along with their technical leader, they are going to set up a tracking server using [MLflow](https://mlflow.org/docs/latest/what-is-mlflow.html) on [AWS](https://docs.aws.amazon.com/wellarchitected/latest/machine-learning-lens/well-architected-machine-learning.html) infrastructure, as per their organization's directives to use this cloud platform.
 
-Igualmente, el lider tecnico del equipo de analitica quiere facilitar la compilacion de la biblioteca de experimentos que miembros del equipo han ido generando en cuadernos de Jupyter en su computadores personales. 
+Similarly, the technical leader of the analytics team aims to streamline the compilation of the library of experiments that team members have been generating in Jupyter notebooks on their personal computers.
 
-## Resumen
-
-En este Workdshop/Demo, se discutira: *Usando MLflow con EC2 a bajo costo*.
+## Summary
+En este Workdshop/Demo, se discutira: *Usando MLflow a bajo costo en una instancia EC2*.
 
 | **Metas**              | *Ver seccion de Metas arriba*                                    |
 | ----------------------------- | --------------------------------------------------------------------- |
