@@ -59,7 +59,7 @@ In this Workshop/Demo, we will discuss: *Using MLflow at low cost on an EC2 inst
    - Load Balancer
 
 ## Demo Guide Structure
-- [Pre-Workshop Checklist](docs/extra_md/part_tips.md)
+- [Pre-Workshop Checklist](docs/extra_md/part_tips_english.md)
 - [Introduction](https://docs.google.com/document/d/1Z1-JeTC9gg58TH4lwZOdo67CkA6W0z8fDMJapOrs8Tg/edit?usp=sharing)
 - [Part 1: VPC Setup](https://docs.google.com/document/d/1Z1-JeTC9gg58TH4lwZOdo67CkA6W0z8fDMJapOrs8Tg/edit?usp=sharing)
 - [Part 2.0: Role Configuration, EC2 Instance, and S3 Bucket Setup](https://docs.google.com/document/d/1Z1-JeTC9gg58TH4lwZOdo67CkA6W0z8fDMJapOrs8Tg/edit?usp=sharing)
@@ -81,7 +81,7 @@ In this Workshop/Demo, we will discuss: *Using MLflow at low cost on an EC2 inst
 ## Learnings and Next Steps
 
 - Development of this demo using Terraform to facilitate the use of services through Infrastructure as Code (IaC)
-  
+
 ## Pre-Learning
 
 - [Introduction to Git](https://www.youtube.com/watch?v=uR6G2v_WsRA&ab_channel=DavidMahler)
