@@ -44,7 +44,7 @@ En este Workdshop/Demo, se discutira: *Usando MLflow con EC2 a bajo costo*.
 | **Que necesitaras**          | *Cuenta de AWS con free tier* |
 | **Duration**                  | *1h*                                                                |
 | **Temas**                  | *EC2, uso de systemctl en EC2, S3, MLFLow*                                                                |                       |
-| **Slides** | [Powerpoint](slides.pptx)
+| **Slides** | [Powerpoint](https://docs.google.com/presentation/d/11itQsG_qyVTqX-Havhkr8Ar_jN5ptMe3/edit?usp=sharing&ouid=108612222707606677347&rtpof=true&sd=true)
 
 ## Prerequisitos relevantes
 
