@@ -86,6 +86,24 @@ In this Workshop/Demo, we will discuss: *Using MLflow at low cost on an EC2 inst
 
 - [Introduction to Git](https://www.youtube.com/watch?v=uR6G2v_WsRA&ab_channel=DavidMahler)
 
+## Contributing
+
+Contributions to this repository are welcome! If you'd like to contribute, please follow these guidelines:
+
+1. **Fork the Repository**: Click the "Fork" button at the top right corner of this repository to create your copy.
+
+2. **Make Changes**: Create a new branch on your fork, make changes or additions to the materials, and commit your changes.
+
+3. **Submit a Pull Request**: Once you're satisfied with your changes, submit a pull request. Be sure to provide a clear and concise description of your changes.
+
+4. **Review and Collaborate**: Collaborators will review your pull request, provide feedback, and merge it into the main repository if everything looks good.
+
+Please follow good coding practices, and ensure that your contributions align with the purpose of this repository.
+
+## License
+
+This repository is licensed under the [MIT License](LICENSE). Please review the license before using or contributing to this repository.
+
 ## Acknowledgments
 
 - [Jeico Percy](https://www.linkedin.com/in/jeico-percy-ing-redes/): Offering support and expertise in validating AWS best practices for this exercise.
