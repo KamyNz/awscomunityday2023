@@ -13,9 +13,11 @@ The repository is structured into various sections for the installation and conf
 
 ![Arquitectura](./docs/readme/Arquitecturav2.png)
 
-## Key Links (Falta)
+## Key Links
 
-[Demo Guide in English]()
+[Demo Guide in English - Still working on it but you can use the one in Spanish]
+
+[Demo Guide in Spanish](https://docs.google.com/document/d/1Z1-JeTC9gg58TH4lwZOdo67CkA6W0z8fDMJapOrs8Tg/edit#heading=h.2fqyc447l1ig)
 
 ## Key Audience
 - Data science teams looking to take their first steps on AWS and enhance ML processes
@@ -46,7 +48,7 @@ In this Workshop/Demo, we will discuss: *Using MLflow at low cost on an EC2 inst
 | **What You'll Need**  | *AWS account with free tier*   |
 | **Duration**  | *1 hour*   |
 | **Topics**  | *EC2, EC2 systemctl usage, S3, MLFlow*   |
-| **Slides** | [Powerpoint](slides.pptx) |
+| **Slides in Spanish** | [Powerpoint](https://docs.google.com/presentation/d/11itQsG_qyVTqX-Havhkr8Ar_jN5ptMe3/edit#slide=id.p1) |
 
 ## Relevant Prerequisites
 - An AWS account is required
