@@ -82,7 +82,7 @@ In this Workshop/Demo, we will discuss: *Using MLflow at low cost on an EC2 inst
 
 ## Learnings and Next Steps
 
-- Development of this demo using Terraform to facilitate the use of services through Infrastructure as Code (IaC)
+- [Terraform Project for the AWS Community Day Conference Demo (With Modules)](https://github.com/KamyNz/demo-projects-2023/tree/main/awscday2023-terraform-mlflow/experiment-modules-mlflow)
 
 ## Pre-Learning
 
